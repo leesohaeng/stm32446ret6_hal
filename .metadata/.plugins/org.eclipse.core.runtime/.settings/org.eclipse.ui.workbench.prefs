@@ -1,0 +1,35 @@
+//org.eclipse.ui.commands/state/com.st.stm32cube.ide.mcu.buildanalyzer.showstate/org.eclipse.ui.commands.radioState=human
+//org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
+CONTENT_ASSIST_FOREGROUND_COLOR=192,192,192
+ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc\tTorg.eclipse.debug.ui.presentation\tTorg.eclipse.mylyn.tasks.ui.presentation\tTorg.eclipse.compare.contentmergeviewer.TextMergeViewer\tTorg.eclipse.ui.presentation.default\tTorg.eclipse.cdt.ui.presentation\tTorg.eclipse.cdt.ui.CEditor.presentation\tTorg.eclipse.team.cvs.ui.fontsandcolors\tTorg.eclipse.egit.ui.GitTheme\tTorg.eclipse.team.svn.ui.theme\tTorg.eclipse.mylyn.wikitext.ui.presentation
+ColorsAndFontsPreferencePage.selectedElement=Corg.eclipse.egit.ui.DiffHeadlineForegroundColor
+ENABLED_DECORATORS=com.arm.cmsis.pack.project.decorators.RteProjectDecorator\:true,com.atollic.truestudio.integration.processorexpert.decorator\:true,org.eclipse.cdt.ui.indexedFiles\:false,org.eclipse.cdt.managedbuilder.ui.excludedFile\:true,org.eclipse.cdt.managedbuilder.ui.includeFolder\:true,org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator\:true,org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator\:true,org.eclipse.mylyn.context.ui.decorator.interest\:true,org.eclipse.mylyn.tasks.ui.decorators.task\:true,org.eclipse.mylyn.team.ui.changeset.decorator\:true,org.eclipse.team.cvs.ui.decorator\:true,org.eclipse.team.svn.ui.decorator.SVNLightweightDecorator\:true,org.eclipse.ui.LinkedResourceDecorator\:true,org.eclipse.ui.SymlinkDecorator\:true,org.eclipse.ui.VirtualResourceDecorator\:true,org.eclipse.ui.ContentTypeDecorator\:true,org.eclipse.ui.ResourceFilterDecorator\:false,
+OUTGOING_COLOR=128,128,128
+PLUGINS_NOT_ACTIVATED_ON_STARTUP=
+UIActivities.org.eclipse.cdt.debug.dsfgdbActivity=true
+eclipse.preferences.version=1
+editors=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<editors>\r\n<descriptor id\="org.eclipse.ui.browser.editorSupport" image\="$nl$/icons/obj16/internal_browser.gif" internal\="false" label\="\uC6F9 \uBE0C\uB77C\uC6B0\uC800" launcher\="org.eclipse.ui.internal.browser.BrowserLauncher" openMode\="4" open_in_place\="false" plugin\="org.eclipse.ui.browser"/>\r\n<descriptor class\="com.arm.cmsis.config.editors.ConfigEditor" id\="com.arm.cmsis.config.editors.configEditor" image\="icons/details.gif" internal\="true" label\="CMSIS Configuration Wizard" openMode\="1" open_in_place\="false" plugin\="com.arm.cmsis.config"/>\r\n<descriptor class\="com.arm.cmsis.pack.ui.editors.RteEditor" id\="com.arm.cmsis.pack.ui.editors.RteConfigurationEditor" image\="icons/rte.gif" internal\="true" label\="RTE Configuration Editor" openMode\="1" open_in_place\="false" plugin\="com.arm.cmsis.pack.ui"/>\r\n</editors>
+org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbench.ACTIVE_TAB_INNER_KEYLINE_COLOR=255,255,255
+org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbench.ACTIVE_TAB_OUTER_KEYLINE_COLOR=182,188,204
+org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbench.ACTIVE_TAB_OUTLINE_COLOR=182,188,204
+org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbench.ACTIVE_UNSELECTED_TABS_COLOR_END=206,221,237
+org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbench.ACTIVE_UNSELECTED_TABS_COLOR_START=210,225,240
+org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbench.INACTIVE_TAB_INNER_KEYLINE_COLOR=255,255,255
+org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbench.INACTIVE_TAB_OUTER_KEYLINE_COLOR=255,255,255
+org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbench.INACTIVE_TAB_OUTLINE_COLOR=182,188,204
+org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbench.INACTIVE_UNSELECTED_TABS_COLOR_END=255,255,255
+org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbench.INACTIVE_UNSELECTED_TABS_COLOR_START=255,255,255
+org.eclipse.egit.ui.DiffHeadlineForegroundColor=128,128,128
+org.eclipse.egit.ui.IgnoredResourceForegroundColor=255,128,64
+org.eclipse.mylyn.tasks.ui.colors.foreground.task.active=0,128,255
+org.eclipse.mylyn.tasks.ui.colors.foreground.thisweek.scheduled=128,128,128
+org.eclipse.team.cvs.ui.fontsandcolors.cvshistorypagecategories=192,192,192
+org.eclipse.team.cvs.ui.fontsandcolors.ignored_resource_foreground_color=192,192,192
+org.eclipse.team.cvs.ui.fontsandcolors.outgoing_change_foreground_color=192,192,192
+org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_TEXT_COLOR=128,128,128
+org.eclipse.ui.workbench.ACTIVE_TAB_TEXT_COLOR=128,128,128
+org.eclipse.ui.workbench.INACTIVE_TAB_TEXT_COLOR=128,128,128
+preference.decoration.ignored_resource_foreground_color=192,192,192
+preference.decoration.outgoing_change_foreground_color=192,192,192
+preference.decoration.structure_nodes_foreground_color=192,192,192
+resourcetypes=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<editors version\="3.1">\r\n<info extension\="shtml" name\="*">\r\n<editor id\="org.eclipse.ui.browser.editorSupport"/>\r\n</info>\r\n<info extension\="hpp" name\="*">\r\n<editor id\="com.arm.cmsis.config.editors.configEditor"/>\r\n</info>\r\n<info extension\="h" name\="*">\r\n<editor id\="com.arm.cmsis.config.editors.configEditor"/>\r\n</info>\r\n<info extension\="ini" name\="*">\r\n<editor id\="com.arm.cmsis.config.editors.configEditor"/>\r\n</info>\r\n<info extension\="cpp" name\="*">\r\n<editor id\="com.arm.cmsis.config.editors.configEditor"/>\r\n</info>\r\n<info extension\="htm" name\="*">\r\n<editor id\="org.eclipse.ui.browser.editorSupport"/>\r\n</info>\r\n<info extension\="html" name\="*">\r\n<editor id\="org.eclipse.ui.browser.editorSupport"/>\r\n</info>\r\n<info extension\="c" name\="*">\r\n<editor id\="com.arm.cmsis.config.editors.configEditor"/>\r\n<editor id\="com.arm.cmsis.config.editors.configEditor"/>\r\n</info>\r\n<info extension\="rteconfig" name\="*">\r\n<editor id\="com.arm.cmsis.pack.ui.editors.RteConfigurationEditor"/>\r\n</info>\r\n<info extension\="s" name\="*">\r\n<editor id\="com.arm.cmsis.config.editors.configEditor"/>\r\n<editor id\="com.arm.cmsis.config.editors.configEditor"/>\r\n</info>\r\n</editors>

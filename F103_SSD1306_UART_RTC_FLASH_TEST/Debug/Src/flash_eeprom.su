@@ -1,0 +1,4 @@
+flash_eeprom.c:16:6:flash_memory_Init	0	static
+flash_eeprom.c:23:6:flash_memory_erase	8	static
+flash_eeprom.c:35:6:flash_memory_write	8	static
+flash_eeprom.c:60:6:flash_memory_read	8	static

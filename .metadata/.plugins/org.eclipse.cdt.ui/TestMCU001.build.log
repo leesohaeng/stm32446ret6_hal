@@ -1,0 +1,176 @@
+11:56:42 **** Rebuild of configuration Debug for project TestMCU001 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L151xB -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L151xB -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L151xB -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L151xB -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\LoraCommHandle.o ..\Src\LoraCommHandle.c 
+..\Src\LoraCommHandle.c: In function 'LoraFrameParse':
+..\Src\LoraCommHandle.c:72:12: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness [-Wpointer-sign]
+  if(strcmp(pMsgFrame, MSG_JOIN_COMPLETE) == 0) {
+            ^~~~~~~~~
+In file included from c:\program files (x86)\atollic\truestudio for stm32 9.0.1\armtools\arm-atollic-eabi\include\stdio.h:29:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_def.h:48,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rcc.h:45,
+                 from ../Inc/stm32l1xx_hal_conf.h:154,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ../Inc/LoraCommHandle.h:4,
+                 from ..\Src\LoraCommHandle.c:1:
+c:\program files (x86)\atollic\truestudio for stm32 9.0.1\armtools\arm-atollic-eabi\include\string.h:32:6: note: expected 'const char *' but argument is of type 'uint8_t * {aka unsigned char *}'
+ int  _EXFUN(strcmp,(const char *, const char *));
+      ^
+..\Src\LoraCommHandle.c:78:20: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness [-Wpointer-sign]
+     else if(strcmp(pMsgFrame, MSG_ACK_RECEIVED) == 0) {
+                    ^~~~~~~~~
+In file included from c:\program files (x86)\atollic\truestudio for stm32 9.0.1\armtools\arm-atollic-eabi\include\stdio.h:29:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_def.h:48,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rcc.h:45,
+                 from ../Inc/stm32l1xx_hal_conf.h:154,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ../Inc/LoraCommHandle.h:4,
+                 from ..\Src\LoraCommHandle.c:1:
+c:\program files (x86)\atollic\truestudio for stm32 9.0.1\armtools\arm-atollic-eabi\include\string.h:32:6: note: expected 'const char *' but argument is of type 'uint8_t * {aka unsigned char *}'
+ int  _EXFUN(strcmp,(const char *, const char *));
+      ^
+..\Src\LoraCommHandle.c:83:21: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness [-Wpointer-sign]
+     else if(strncmp(pMsgFrame, MSG_RECV_BIN_MESSAGE, strlen(MSG_RECV_BIN_MESSAGE)) == 0) {
+                     ^~~~~~~~~
+In file included from c:\program files (x86)\atollic\truestudio for stm32 9.0.1\armtools\arm-atollic-eabi\include\stdio.h:29:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_def.h:48,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rcc.h:45,
+                 from ../Inc/stm32l1xx_hal_conf.h:154,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ../Inc/LoraCommHandle.h:4,
+                 from ..\Src\LoraCommHandle.c:1:
+c:\program files (x86)\atollic\truestudio for stm32 9.0.1\armtools\arm-atollic-eabi\include\string.h:39:6: note: expected 'const char *' but argument is of type 'uint8_t * {aka unsigned char *}'
+ int  _EXFUN(strncmp,(const char *, const char *, size_t));
+      ^
+..\Src\LoraCommHandle.c: In function 'LoraMsgRecv':
+..\Src\LoraCommHandle.c:45:25: warning: 'rxMsgBufLen' may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     err = LoraFrameParse(LORA_RX_BUF, rxMsgBufLen, pCommon);
+                     ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L151xB -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\Lom202aHandle.o ..\Src\Lom202aHandle.c 
+..\Src\Lom202aHandle.c: In function 'LoraCommSerial_GetByte':
+..\Src\Lom202aHandle.c:165:12: warning: 'getCh' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     return getCh;
+            ^~~~~
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L151xB -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\Tps62191Handle.o ..\Src\Tps62191Handle.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L151xB -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\main.o ..\Src\main.c 
+..\Src\main.c: In function 'main':
+..\Src\main.c:30:2: warning: implicit declaration of function 'TPS61291BypassDisable' [-Wimplicit-function-declaration]
+  TPS61291BypassDisable();
+  ^~~~~~~~~~~~~~~~~~~~~
+..\Src\main.c:31:2: warning: implicit declaration of function 'LoraHandleGpio_Init' [-Wimplicit-function-declaration]
+  LoraHandleGpio_Init();
+  ^~~~~~~~~~~~~~~~~~~
+..\Src\main.c:32:2: warning: implicit declaration of function 'LoraCommSerial_Init' [-Wimplicit-function-declaration]
+  LoraCommSerial_Init();
+  ^~~~~~~~~~~~~~~~~~~
+..\Src\main.c:34:2: warning: implicit declaration of function 'BatteryAdc_Init' [-Wimplicit-function-declaration]
+  BatteryAdc_Init();
+  ^~~~~~~~~~~~~~~
+..\Src\main.c:46:2: warning: implicit declaration of function 'LoraModuleOn' [-Wimplicit-function-declaration]
+  LoraModuleOn();
+  ^~~~~~~~~~~~
+..\Src\main.c:52:4: warning: implicit declaration of function 'RunNormalMode' [-Wimplicit-function-declaration]
+    RunNormalMode(&STATUS_COMMON);
+    ^~~~~~~~~~~~~
+..\Src\main.c:56:4: warning: implicit declaration of function 'LoraBypassMode' [-Wimplicit-function-declaration]
+    LoraBypassMode();
+    ^~~~~~~~~~~~~~
+In file included from ..\Src\main.c:4:0:
+..\Src\main.c: In function 'ModeSelectGet':
+..\Src\main.c:72:20: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat=]
+   TRACE_DEBUG_NOLF("\b%d", (MODE_SELECT_TIMEOUT - timeoutCnt));
+                    ^
+../Inc/Common.h:28:49: note: in definition of macro 'TRACE_DEBUG_NOLF'
+ #define TRACE_DEBUG_NOLF(fmt, ...)       printf(fmt, ##__VA_ARGS__)
+                                                 ^~~
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L151xB -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\NomalModeRun.o ..\Src\NomalModeRun.c 
+..\Src\NomalModeRun.c: In function 'Sequence_WaitJoin':
+..\Src\NomalModeRun.c:56:5: warning: implicit declaration of function 'LoraMsgRecv' [-Wimplicit-function-declaration]
+     LoraMsgRecv(pCommon, LORA_JOIN_WAIT_MS);
+     ^~~~~~~~~~~
+In file included from ../Inc/NormalModeRun.h:5:0,
+                 from ..\Src\NomalModeRun.c:1:
+..\Src\NomalModeRun.c: In function 'Sequence_GetSensorData':
+../Inc/Common.h:50:48: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+ #define SYSTEM_NOTICE(fmt, ...)         printf("\033[%xm""SYSTEM NOTI ["fmt"]\033[m\n", ANSI_COLOT_CYAN, ##__VA_ARGS__)
+                                                ^
+..\Src\NomalModeRun.c:77:2: note: in expansion of macro 'SYSTEM_NOTICE'
+  SYSTEM_NOTICE("Total Flow : %d", pCommon->TOTAL_FLOW);
+  ^~~~~~~~~~~~~
+..\Src\NomalModeRun.c:69:11: warning: unused variable 'err' [-Wunused-variable]
+  int32_t  err;
+           ^~~
+..\Src\NomalModeRun.c: In function 'Sequence_SendRecvData':
+..\Src\NomalModeRun.c:85:2: warning: implicit declaration of function 'CommBinaryStatusSend' [-Wimplicit-function-declaration]
+  CommBinaryStatusSend(pCommon, true);
+  ^~~~~~~~~~~~~~~~~~~~
+..\Src\NomalModeRun.c: In function 'Sequence_Sleep':
+..\Src\NomalModeRun.c:163:3: warning: implicit declaration of function 'SystemClock_Config' [-Wimplicit-function-declaration]
+   SystemClock_Config();
+   ^~~~~~~~~~~~~~~~~~
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L151xB -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\RtcHandle.o ..\Src\RtcHandle.c 
+..\Src\RtcHandle.c:10:1: error: unknown type name 'RTC_HandleTypeDef'
+ RTC_HandleTypeDef   RTC_HANDLE;
+ ^~~~~~~~~~~~~~~~~
+..\Src\RtcHandle.c: In function 'RTC_Init':
+..\Src\RtcHandle.c:23:15: error: request for member 'Instance' in something not a structure or union
+     RTC_HANDLE.Instance = RTC;
+               ^
+..\Src\RtcHandle.c:24:15: error: request for member 'Init' in something not a structure or union
+     RTC_HANDLE.Init.HourFormat = RTC_HOURFORMAT_24;
+               ^
+..\Src\RtcHandle.c:24:34: error: 'RTC_HOURFORMAT_24' undeclared (first use in this function)
+     RTC_HANDLE.Init.HourFormat = RTC_HOURFORMAT_24;
+                                  ^~~~~~~~~~~~~~~~~
+..\Src\RtcHandle.c:24:34: note: each undeclared identifier is reported only once for each function it appears in
+..\Src\RtcHandle.c:25:15: error: request for member 'Init' in something not a structure or union
+     RTC_HANDLE.Init.AsynchPrediv = 127;
+               ^
+..\Src\RtcHandle.c:26:15: error: request for member 'Init' in something not a structure or union
+     RTC_HANDLE.Init.SynchPrediv = 255;
+               ^
+..\Src\RtcHandle.c:27:15: error: request for member 'Init' in something not a structure or union
+     RTC_HANDLE.Init.OutPut = RTC_OUTPUT_DISABLE;
+               ^
+..\Src\RtcHandle.c:27:30: error: 'RTC_OUTPUT_DISABLE' undeclared (first use in this function)
+     RTC_HANDLE.Init.OutPut = RTC_OUTPUT_DISABLE;
+                              ^~~~~~~~~~~~~~~~~~
+..\Src\RtcHandle.c:28:15: error: request for member 'Init' in something not a structure or union
+     RTC_HANDLE.Init.OutPutPolarity = RTC_OUTPUT_POLARITY_HIGH;
+               ^
+..\Src\RtcHandle.c:28:38: error: 'RTC_OUTPUT_POLARITY_HIGH' undeclared (first use in this function)
+     RTC_HANDLE.Init.OutPutPolarity = RTC_OUTPUT_POLARITY_HIGH;
+                                      ^~~~~~~~~~~~~~~~~~~~~~~~
+..\Src\RtcHandle.c:29:15: error: request for member 'Init' in something not a structure or union
+     RTC_HANDLE.Init.OutPutType = RTC_OUTPUT_TYPE_OPENDRAIN;
+               ^
+..\Src\RtcHandle.c:29:34: error: 'RTC_OUTPUT_TYPE_OPENDRAIN' undeclared (first use in this function)
+     RTC_HANDLE.Init.OutPutType = RTC_OUTPUT_TYPE_OPENDRAIN;
+                                  ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\Src\RtcHandle.c:30:9: warning: implicit declaration of function 'HAL_RTC_Init' [-Wimplicit-function-declaration]
+     if (HAL_RTC_Init(&RTC_HANDLE) != HAL_OK)
+         ^~~~~~~~~~~~
+..\Src\RtcHandle.c: In function 'RTC_WakeUpTimerSet':
+..\Src\RtcHandle.c:43:5: warning: implicit declaration of function 'HAL_RTCEx_SetWakeUpTimer_IT' [-Wimplicit-function-declaration]
+     HAL_RTCEx_SetWakeUpTimer_IT(&RTC_HANDLE, waitSec, RTC_WAKEUPCLOCK_CK_SPRE_16BITS);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\Src\RtcHandle.c:43:55: error: 'RTC_WAKEUPCLOCK_CK_SPRE_16BITS' undeclared (first use in this function)
+     HAL_RTCEx_SetWakeUpTimer_IT(&RTC_HANDLE, waitSec, RTC_WAKEUPCLOCK_CK_SPRE_16BITS);
+                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\Src\RtcHandle.c: In function 'RTC_WakeUpTimerClear':
+..\Src\RtcHandle.c:50:5: warning: implicit declaration of function 'HAL_RTCEx_DeactivateWakeUpTimer' [-Wimplicit-function-declaration]
+     HAL_RTCEx_DeactivateWakeUpTimer(&RTC_HANDLE);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\Src\RtcHandle.c: At top level:
+..\Src\RtcHandle.c:55:41: error: unknown type name 'RTC_HandleTypeDef'
+ void HAL_RTCEx_WakeUpTimerEventCallback(RTC_HandleTypeDef *hrtc)
+                                         ^~~~~~~~~~~~~~~~~
+..\Src\RtcHandle.c: In function 'RTC_WKUP_IRQHandler':
+..\Src\RtcHandle.c:76:5: warning: implicit declaration of function 'HAL_RTCEx_WakeUpTimerIRQHandler' [-Wimplicit-function-declaration]
+     HAL_RTCEx_WakeUpTimerIRQHandler(&RTC_HANDLE);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+11:56:47 Build Finished (took 4s.500ms)
+

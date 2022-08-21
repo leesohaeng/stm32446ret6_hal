@@ -1,0 +1,4 @@
+u8g_arm.c:10:7:u8g_Delay	0	static
+u8g_arm.c:14:7:u8g_MicroDelay	0	static
+u8g_arm.c:18:7:u8g_10MicroDelay	0	static
+u8g_arm.c:22:10:u8g_com_hw_spi_fn	16	static

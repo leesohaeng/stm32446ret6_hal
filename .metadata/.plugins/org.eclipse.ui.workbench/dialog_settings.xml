@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="workingset_selection_history">
+		<item value="lora_emware"/>
+	</list>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="499" key="DIALOG_X_ORIGIN"/>
+		<item value="41" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="624" key="dialogHeight"/>
+		<item value="1080" key="dialogWidth"/>
+		<list key="textEntries">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="orderedProviders">
+		</list>
+		<list key="textArray">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="FileSystemExportWizard">
+		<item value="true" key="WizardFileSystemResourceExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID"/>
+		<item value="false" key="WizardFileSystemResourceExportPage1.STORE_RESOLVE_LINKED_RESOURCES_ID"/>
+		<item value="false" key="WizardFileSystemResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
+		<list key="WizardFileSystemResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\sohae\Desktop\stm32fdiscovery"/>
+		</list>
+	</section>
+	<section name="ShowViewDialog">
+		<item value="354" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="439" key="DIALOG_HEIGHT"/>
+		<item value="551" key="DIALOG_X_ORIGIN"/>
+		<item value="146" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.ui.wizards.export.FileSystem" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
+		<item value="true" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\sohae\Desktop\mlm32l07x01"/>
+			<item value="C:\Users\sohae\Desktop\AN-ST-STM32CubeFx-ARM-Cortex-M\Micrium\Software"/>
+			<item value="C:\Users\sohae\Desktop\STM32Cube_FW_F4_V1.9.0\Micrium\Software\uCOS-II\Ports\ARM-Cortex-M\ARMv7-M\GNU"/>
+			<item value="C:\Users\sohae\Desktop\STM32Cube_FW_F4_V1.9.0\Micrium\Software\uCOS-II\Source"/>
+			<item value="C:\Users\sohae\Desktop\STM32Cube_FW_F4_V1.9.0\Micrium\Software\uC-LIB"/>
+			<item value="C:\Users\sohae\Desktop\STM32Cube_FW_F4_V1.9.0\Micrium\Software\uC-CPU\ARM-Cortex-M4\GNU"/>
+			<item value="C:\Users\sohae\Desktop\STM32Cube_FW_F4_V1.9.0\Micrium\Software\uC-CPU"/>
+			<item value="C:\Users\sohae\Desktop\STM32F446RET6_HAL\Nuclro446RE_UART_RxTxIT\Src"/>
+			<item value="C:\Users\sohae\Desktop\STM32F446RET6_HAL\NucleoF446RE_PROJ\Src"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,20 @@
+09:40:42 **** Incremental Build of configuration Debug for project C8T6_Muiti ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F103xB -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -o Src\main.o ..\Src\main.c 
+arm-atollic-eabi-gcc -o C8T6_Muiti.elf Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o Src\main.o Src\stm32f1xx_hal_msp.o Src\stm32f1xx_it.o Src\system_stm32f1xx.o startup\startup_stm32f103xb.o -mthumb -mcpu=cortex-m3 -T../STM32F103C8_FLASH.ld -Wl,--start-group -lc -lm -Wl,--end-group -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=C8T6_Muiti.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM 7.1.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM 7.1.0\Tools\arm-atollic-reports.jar convert hex sizeinfo list C:\Users\sohaenglee\Desktop\STM32F446RET6_HAL\C8T6_Muiti\Debug\C8T6_Muiti.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: C:\Users\sohaenglee\Desktop\STM32F446RET6_HAL\C8T6_Muiti\Debug\C8T6_Muiti.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  31936	   1448	   2672	  36056	   8cd8	C:\Users\sohaenglee\Desktop\STM32F446RET6_HAL\C8T6_Muiti\Debug\C8T6_Muiti.elf
+Print size information done
+Generate listing file
+Output sent to: C:\Users\sohaenglee\Desktop\STM32F446RET6_HAL\C8T6_Muiti\Debug\C8T6_Muiti.list
+Generate listing file done
+Generate build reports done
+
+09:40:45 Build Finished (took 2s.339ms)
+

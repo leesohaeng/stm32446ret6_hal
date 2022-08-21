@@ -1,0 +1,7 @@
+10:17:01 **** Incremental Build of configuration Debug for project 20160905_op1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src\main.o ..\src\main.c 
+gcc -o 20160905_op1.exe src\main.o 
+
+10:17:02 Build Finished (took 988ms)
+

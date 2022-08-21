@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="2 자원을 삭제합니다." deleteContents="true" description="2 자원을 삭제합니다." element1="/446RE_V1" element2="/446RE_VI" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1461891921232"/>
+</session>

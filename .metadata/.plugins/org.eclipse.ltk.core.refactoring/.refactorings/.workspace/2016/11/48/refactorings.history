@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="자원 &apos;Nuclro446RE_UART_RxTxIT&apos;을(를) &apos;Nuclro446RE_GYRO&apos;(으)로 이름 바꾸기" description="&apos;Nuclro446RE_UART_RxTxIT&apos; 자원 이름 바꾸기" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Nuclro446RE_UART_RxTxIT" name="Nuclro446RE_GYRO" stamp="1480161936695" updateReferences="true"/>
+</session>

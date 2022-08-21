@@ -1,0 +1,7 @@
+dht22.c:76:6:DHT22_Init	0	static
+dht22.c:87:6:DHT22_start	16	static
+dht22.c:102:6:DHT22_check_response	8	static
+dht22.c:114:6:DHT22_read_data	24	static
+dht22.c:136:10:DHT22_GetHumidity	0	static
+dht22.c:141:10:DHT22_GetTemperature	0	static
+dht22.c:146:6:DHT22_CheckSum	0	static

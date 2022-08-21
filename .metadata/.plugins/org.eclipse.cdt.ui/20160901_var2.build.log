@@ -1,0 +1,11 @@
+09:42:20 **** Incremental Build of configuration Debug for project 20160901_var2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src\main.o ..\src\main.c 
+..\src\main.c: In function 'main':
+..\src\main.c:10:7: warning: unused variable 'l' [-Wunused-variable]
+  long l = 12345678;
+       ^
+gcc -o 20160901_var2.exe src\main.o 
+
+09:42:24 Build Finished (took 3s.456ms)
+

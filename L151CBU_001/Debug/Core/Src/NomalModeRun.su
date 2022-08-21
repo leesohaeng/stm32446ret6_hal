@@ -1,0 +1,8 @@
+NomalModeRun.c:27:6:CommonStatusDefaultSet	16	static
+NomalModeRun.c:54:6:Sequence_WaitJoin	8	static
+NomalModeRun.c:67:6:Sequence_GetSensorData	16	static
+NomalModeRun.c:82:6:Sequence_SendRecvData	8	static
+NomalModeRun.c:91:6:Sequence_SendAckData	8	static
+NomalModeRun.c:102:6:Sequence_ControlDevice	8	static
+NomalModeRun.c:145:6:Sequence_Sleep	8	static
+NomalModeRun.c:11:6:RunNormalMode	8	static

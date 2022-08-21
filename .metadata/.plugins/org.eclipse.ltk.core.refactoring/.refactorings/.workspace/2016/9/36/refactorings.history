@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="&apos;20160901_hello&apos; 자원을 삭제합니다." deleteContents="false" description="&apos;20160901_hello&apos; 자원을 삭제합니다." element1="/20160901_hello" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1472705594924"/>&#x0A;<refactoring comment="&apos;20160901_hello&apos; 자원을 삭제합니다." deleteContents="true" description="&apos;20160901_hello&apos; 자원을 삭제합니다." element1="/20160901_hello" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1472706104599"/>
+</session>

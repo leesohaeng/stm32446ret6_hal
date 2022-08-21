@@ -1,0 +1,6 @@
+LoraCommHandle.c:98:6:LoraRxBinaryFrame	24	static
+LoraCommHandle.c:66:9:LoraFrameParse	24	static
+LoraCommHandle.c:21:9:LoraMsgRecv	32	static
+LoraCommHandle.c:151:6:LoraTxBinaryFrame	32	static
+LoraCommHandle.c:194:10:StatusMsgMake	0	static
+LoraCommHandle.c:218:6:CommBinaryStatusSend	8	static

@@ -1,0 +1,10 @@
+23:20:07 **** Incremental Build of configuration Debug for project CZY ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m0plus -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L072xx -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -o Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_pwr_ex.o ..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_pwr_ex.c 
+In file included from ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:48:0,
+                 from ..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_pwr_ex.c:44:
+../Inc/stm32l0xx_hal_conf.h:230:33: fatal error: stm32l0xx_hal_iwdg.h: No such file or directory
+compilation terminated.
+
+23:20:08 Build Finished (took 849ms)
+

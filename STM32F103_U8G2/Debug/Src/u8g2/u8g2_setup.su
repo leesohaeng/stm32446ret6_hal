@@ -1,0 +1,13 @@
+u8g2_setup.c:95:13:u8g2_update_dimension_common	16	static
+u8g2_setup.c:138:6:u8g2_update_dimension_r0	8	static
+u8g2_setup.c:152:6:u8g2_update_dimension_r1	8	static
+u8g2_setup.c:169:6:u8g2_update_dimension_r2	8	static
+u8g2_setup.c:187:6:u8g2_update_dimension_r3	8	static
+u8g2_setup.c:212:6:u8g2_draw_l90_r0	4	static
+u8g2_setup.c:217:6:u8g2_draw_l90_mirrorr_r0	8	static
+u8g2_setup.c:235:6:u8g2_draw_l90_r1	8	static
+u8g2_setup.c:250:6:u8g2_draw_l90_r2	12	static
+u8g2_setup.c:267:6:u8g2_draw_l90_r3	8	static
+u8g2_setup.c:44:6:u8g2_SetupBuffer	16	static
+u8g2_setup.c:78:6:u8g2_SetDisplayRotation	0	static
+u8g2_setup.c:296:6:u8g2_Setup_null	24	static

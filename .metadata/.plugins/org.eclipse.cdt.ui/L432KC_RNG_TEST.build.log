@@ -1,0 +1,75 @@
+14:49:10 **** Incremental Build of configuration Debug for project L432KC_RNG_TEST ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L432xx -DARM_MATH_CM4 -I../Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -o Src\main.o ..\Src\main.c 
+..\Src\main.c: In function 'FlashMemoryRead':
+..\Src\main.c:173:19: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'long unsigned int' [-Wformat=]
+  printf("Addr == %x , %lu\r\n",USER_DATA1,*(__IO uint64_t *)USER_DATA1);
+                   ^
+..\Src\main.c:173:25: warning: format '%lu' expects argument of type 'long unsigned int', but argument 3 has type 'uint64_t {aka volatile long long unsigned int}' [-Wformat=]
+  printf("Addr == %x , %lu\r\n",USER_DATA1,*(__IO uint64_t *)USER_DATA1);
+                         ^
+..\Src\main.c:174:19: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'long unsigned int' [-Wformat=]
+  printf("Addr == %x , %lu\r\n",USER_DATA2,*(__IO uint64_t *)USER_DATA2);
+                   ^
+..\Src\main.c:174:25: warning: format '%lu' expects argument of type 'long unsigned int', but argument 3 has type 'uint64_t {aka volatile long long unsigned int}' [-Wformat=]
+  printf("Addr == %x , %lu\r\n",USER_DATA2,*(__IO uint64_t *)USER_DATA2);
+                         ^
+..\Src\main.c:175:19: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'long unsigned int' [-Wformat=]
+  printf("Addr == %x , %lu\r\n",USER_DATA3,*(__IO uint64_t *)USER_DATA3);
+                   ^
+..\Src\main.c:175:25: warning: format '%lu' expects argument of type 'long unsigned int', but argument 3 has type 'uint64_t {aka volatile long long unsigned int}' [-Wformat=]
+  printf("Addr == %x , %lu\r\n",USER_DATA3,*(__IO uint64_t *)USER_DATA3);
+                         ^
+..\Src\main.c:176:19: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'long unsigned int' [-Wformat=]
+  printf("Addr == %x , %lu\r\n",USER_DATA4,*(__IO uint64_t *)USER_DATA4);
+                   ^
+..\Src\main.c:176:25: warning: format '%lu' expects argument of type 'long unsigned int', but argument 3 has type 'uint64_t {aka volatile long long unsigned int}' [-Wformat=]
+  printf("Addr == %x , %lu\r\n",USER_DATA4,*(__IO uint64_t *)USER_DATA4);
+                         ^
+..\Src\main.c: In function 'main':
+..\Src\main.c:323:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'long unsigned int' [-Wformat=]
+    printf("%x : %x\r\n",USER_DATA1,*(__IO uint64_t *)USER_DATA1);
+             ^
+..\Src\main.c:323:18: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'uint64_t {aka volatile long long unsigned int}' [-Wformat=]
+    printf("%x : %x\r\n",USER_DATA1,*(__IO uint64_t *)USER_DATA1);
+                  ^
+..\Src\main.c:324:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'long unsigned int' [-Wformat=]
+    printf("%x : %x\r\n",USER_DATA2,*(__IO uint64_t *)USER_DATA2);
+             ^
+..\Src\main.c:324:18: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'uint64_t {aka volatile long long unsigned int}' [-Wformat=]
+    printf("%x : %x\r\n",USER_DATA2,*(__IO uint64_t *)USER_DATA2);
+                  ^
+..\Src\main.c:325:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'long unsigned int' [-Wformat=]
+    printf("%x : %x\r\n",USER_DATA3,*(__IO uint64_t *)USER_DATA3);
+             ^
+..\Src\main.c:325:18: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'uint64_t {aka volatile long long unsigned int}' [-Wformat=]
+    printf("%x : %x\r\n",USER_DATA3,*(__IO uint64_t *)USER_DATA3);
+                  ^
+..\Src\main.c:326:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'long unsigned int' [-Wformat=]
+    printf("%x : %x\r\n",USER_DATA4,*(__IO uint64_t *)USER_DATA4);
+             ^
+..\Src\main.c:326:18: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'uint64_t {aka volatile long long unsigned int}' [-Wformat=]
+    printf("%x : %x\r\n",USER_DATA4,*(__IO uint64_t *)USER_DATA4);
+                  ^
+At top level:
+..\Src\main.c:121:17: warning: 'GetBank' defined but not used [-Wunused-function]
+ static uint32_t GetBank(uint32_t Addr)
+                 ^~~~~~~
+..\Src\main.c:98:17: warning: 'GetPage' defined but not used [-Wunused-function]
+ static uint32_t GetPage(uint32_t Addr)
+                 ^~~~~~~
+arm-atollic-eabi-gcc -o L432KC_RNG_TEST.elf Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.o Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.o Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.o Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.o Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.o Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.o Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.o Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.o Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.o Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.o Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.o Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.o Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.o Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.o Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rng.o Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.o Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.o Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.o Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.o Src\main.o Src\stm32l4xx_hal_msp.o Src\stm32l4xx_it.o Src\system_stm32l4xx.o startup\startup_stm32l432xx.o -larm_cortexM4lf_math -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32L432KC_FLASH.ld -specs=nosys.specs -static -LC:\Users\sohaenglee\STM32Cube\Repository\STM32Cube_FW_L4_V1.13.0\Drivers\CMSIS\Lib\GCC -u _printf_float -Wl,-Map=L432KC_RNG_TEST.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.1.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.1.0\Tools\arm-atollic-reports.jar sizeinfo list L432KC_RNG_TEST.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  33864	   1660	   1884	  37408	   9220	L432KC_RNG_TEST.elf
+Print size information done
+Generate listing file
+Output sent to: L432KC_RNG_TEST.list
+Generate listing file done
+Generate build reports done
+arm-atollic-eabi-objcopy.exe -O ihex L432KC_RNG_TEST.elf L432KC_RNG_TEST.hex 
+
+14:49:12 Build Finished (took 1s.875ms)
+

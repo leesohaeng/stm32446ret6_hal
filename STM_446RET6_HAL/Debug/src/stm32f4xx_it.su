@@ -1,0 +1,10 @@
+stm32f4xx_it.c:61:6:_delay_ms	16	static
+stm32f4xx_it.c:67:6:_delay_us	16	static
+stm32f4xx_it.c:73:6:SysTick_Handler	8	static
+stm32f4xx_it.c:95:6:TIM2_IRQHandler	8	static
+stm32f4xx_it.c:109:6:TIM3_IRQHandler	8	static
+stm32f4xx_it.c:123:6:TIM4_IRQHandler	8	static
+stm32f4xx_it.c:137:6:USART1_IRQHandler	8	static
+stm32f4xx_it.c:151:6:USART2_IRQHandler	8	static
+stm32f4xx_it.c:163:6:USART3_IRQHandler	8	static
+stm32f4xx_it.c:174:6:DMA2_Stream0_IRQHandler	8	static

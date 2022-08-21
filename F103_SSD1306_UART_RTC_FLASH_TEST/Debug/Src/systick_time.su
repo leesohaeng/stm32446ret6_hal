@@ -1,0 +1,2 @@
+systick_time.c:15:6:HAL_IncTick	0	static
+systick_time.c:20:6:HAL_Delay	16	static

@@ -1,0 +1,11 @@
+Lom202aHandle.c:69:6:LoraModuleOff	0	static
+Lom202aHandle.c:37:6:LoraHandleGpio_Init	48	static
+Lom202aHandle.c:75:6:LoraModuleOn	0	static
+Lom202aHandle.c:81:6:LoraReset	8	static
+Lom202aHandle.c:91:6:LoraWakeUp	8	static
+Lom202aHandle.c:142:6:LoraCommSerial_RxFlush	8	static
+Lom202aHandle.c:100:6:LoraCommSerial_Init	56	static
+Lom202aHandle.c:151:10:LoraCommSerial_RxExist	0	static
+Lom202aHandle.c:156:9:LoraCommSerial_GetByte	0	static
+Lom202aHandle.c:168:6:LoraCommSerial_Send	16	static
+Lom202aHandle.c:176:6:USART1_IRQHandler	16	static

@@ -1,0 +1,7 @@
+DebugSerial.c:35:1:__io_putchar	16	static
+DebugSerial.c:83:6:DebugSerial_RxFlush	8	static
+DebugSerial.c:42:6:DebugSerial_Init	40	static
+DebugSerial.c:92:10:DebugSerial_RxExist	0	static
+DebugSerial.c:97:9:DebugSerial_GetByte	0	static
+DebugSerial.c:109:6:DebugSerial_Send	0	static
+DebugSerial.c:115:6:USART2_IRQHandler	16	static

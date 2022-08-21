@@ -1,0 +1,11 @@
+13:18:34 **** Incremental Build of configuration Debug for project uCOS ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -DSTM32F446xx -I../src -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -IC:\Users\sohae\Desktop\STM32F446RET6_HAL\uCOS\uC-CPU -IC:\Users\sohae\Desktop\STM32F446RET6_HAL\uCOS\uC-LIB -IC:\Users\sohae\Desktop\STM32F446RET6_HAL\uCOS\uCOS-II\Source -O0 -ffunction-sections -fdata-sections -g -Wall -o src\tiny_printf.o ..\src\tiny_printf.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -DSTM32F446xx -I../src -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -IC:\Users\sohae\Desktop\STM32F446RET6_HAL\uCOS\uC-CPU -IC:\Users\sohae\Desktop\STM32F446RET6_HAL\uCOS\uC-LIB -IC:\Users\sohae\Desktop\STM32F446RET6_HAL\uCOS\uCOS-II\Source -O0 -ffunction-sections -fdata-sections -g -Wall -o src\system_stm32f4xx.o ..\src\system_stm32f4xx.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -DSTM32F446xx -I../src -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -IC:\Users\sohae\Desktop\STM32F446RET6_HAL\uCOS\uC-CPU -IC:\Users\sohae\Desktop\STM32F446RET6_HAL\uCOS\uC-LIB -IC:\Users\sohae\Desktop\STM32F446RET6_HAL\uCOS\uCOS-II\Source -O0 -ffunction-sections -fdata-sections -g -Wall -o src\main.o ..\src\main.c 
+In file included from ..\src\main.c:30:0:
+C:\Users\sohae\Desktop\STM32F446RET6_HAL\uCOS\uCOS-II\Source/ucos_ii.h:53:21: fatal error: app_cfg.h: No such file or directory
+compilation terminated.
+
+13:18:36 Build Finished (took 2s.189ms)
+

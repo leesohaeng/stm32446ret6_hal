@@ -1,0 +1,20 @@
+21:23:38 **** Incremental Build of configuration Debug for project 446_FreeOS ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F446xx -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -Wall -o Src\main.o ..\Src\main.c 
+arm-atollic-eabi-gcc Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\gcc\startup_stm32f446xx.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.o Middlewares\Third_Party\FreeRTOS\Source\croutine.o Middlewares\Third_Party\FreeRTOS\Source\event_groups.o Middlewares\Third_Party\FreeRTOS\Source\list.o Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.o Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.o Middlewares\Third_Party\FreeRTOS\Source\queue.o Middlewares\Third_Party\FreeRTOS\Source\tasks.o Middlewares\Third_Party\FreeRTOS\Source\timers.o Src\freertos.o Src\main.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_hal_timebase_TIM.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o -o 446_FreeOS.elf -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F446RE_FLASH.ld -Wl,--start-group -lc -lm -Wl,--end-group -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=446_FreeOS.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM 7.0.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM 7.0.0\Tools\arm-atollic-reports.jar convert hex sizeinfo list C:\Users\sohae\Desktop\STM32F446RET6_HAL\446_FreeOS\Debug\446_FreeOS.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: C:\Users\sohae\Desktop\STM32F446RET6_HAL\446_FreeOS\Debug\446_FreeOS.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+   8400	     16	  17388	  25804	   64cc	C:\Users\sohae\Desktop\STM32F446RET6_HAL\446_FreeOS\Debug\446_FreeOS.elf
+Print size information done
+Generate listing file
+Output sent to: C:\Users\sohae\Desktop\STM32F446RET6_HAL\446_FreeOS\Debug\446_FreeOS.list
+Generate listing file done
+Generate build reports done
+
+21:23:42 Build Finished (took 3s.929ms)
+

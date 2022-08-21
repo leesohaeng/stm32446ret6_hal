@@ -1,0 +1,2 @@
+Base64.c:15:17:base64_encode	24	static
+Base64.c:60:17:base64_decode	288	static

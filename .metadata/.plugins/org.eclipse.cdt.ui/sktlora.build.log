@@ -1,0 +1,10 @@
+00:30:12 **** Rebuild of configuration Debug for project sktlora ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c ..\Drivers\CMSIS\DSP_Lib\Source\SupportFunctions\arm_fill_q15.c -std=gnu11 -O0 -g -fstack-usage -Wall -specs=nano.specs -o Drivers\CMSIS\DSP_Lib\Source\SupportFunctions\arm_fill_q15.o 
+..\Drivers\CMSIS\DSP_Lib\Source\SupportFunctions\arm_fill_q15.c:41:22: fatal error: arm_math.h: No such file or directory
+ #include "arm_math.h"
+                      ^
+compilation terminated.
+
+00:30:12 Build Finished (took 265ms)
+

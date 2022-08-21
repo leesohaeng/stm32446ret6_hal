@@ -1,0 +1,17 @@
+19:19:26 **** Incremental Build of configuration Debug for project NucleoF446RE_PROJ ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F446xx -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -Os -ffunction-sections -fdata-sections -g -Wall -o Src\main.o ..\Src\main.c 
+arm-atollic-eabi-gcc Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.o Src\main.o Src\startup_stm32f446xx.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\tlcd.o -o NucleoF446RE_BASE.elf -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F446RE_FLASH.ld -Wl,--start-group -lc -lm -Wl,--end-group -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=NucleoF446RE_BASE.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM 6.0.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM 6.0.0\Tools\arm-atollic-reports.jar sizeinfo list NucleoF446RE_BASE.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  26084	   1352	   2068	  29504	   7340	NucleoF446RE_BASE.elf
+Print size information done
+Generate listing file
+Output sent to: NucleoF446RE_BASE.elf.list
+Generate listing file done
+Generate build reports done
+
+19:19:29 Build Finished (took 2s.339ms)
+

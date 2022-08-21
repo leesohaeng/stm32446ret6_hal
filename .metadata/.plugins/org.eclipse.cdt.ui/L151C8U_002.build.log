@@ -1,0 +1,118 @@
+14:16:48 **** Incremental Build of configuration Debug for project L151C8U_002 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L151xB -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\Common.o ..\Src\Common.c 
+..\Src\Common.c: In function 'HexEncode':
+..\Src\Common.c:30:27: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+     for(i = 0; i < strlen(pInStr); i+=2) {
+                           ^~~~~~
+In file included from c:\program files (x86)\atollic\truestudio for stm32 9.0.1\armtools\arm-atollic-eabi\include\stdio.h:29:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_def.h:48,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rcc.h:45,
+                 from ../Inc/stm32l1xx_hal_conf.h:154,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ../Inc/Common.h:4,
+                 from ..\Src\Common.c:1:
+c:\program files (x86)\atollic\truestudio for stm32 9.0.1\armtools\arm-atollic-eabi\include\string.h:37:9: note: expected 'const char *' but argument is of type 'uint8_t * {aka unsigned char *}'
+ size_t  _EXFUN(strlen,(const char *));
+         ^
+..\Src\Common.c:35:31: warning: implicit declaration of function 'strtol' [-Wimplicit-function-declaration]
+         pOutBuff[outBufIdx] = strtol(temp, 0, 16);
+                               ^~~~~~
+..\Src\Common.c: In function 'HexDecode':
+..\Src\Common.c:54:19: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+         *ppOutStr = "";
+                   ^
+..\Src\Common.c:59:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+         sprintf(&HEX_DECODE_BUFF[hexDecodeBuff], "%02x", pInBuff[i]);
+                 ^
+In file included from c:\program files (x86)\atollic\truestudio for stm32 9.0.1\armtools\arm-atollic-eabi\include\stdio.h:29:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_def.h:48,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rcc.h:45,
+                 from ../Inc/stm32l1xx_hal_conf.h:154,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ../Inc/Common.h:4,
+                 from ..\Src\Common.c:1:
+c:\program files (x86)\atollic\truestudio for stm32 9.0.1\armtools\arm-atollic-eabi\include\stdio.h:244:5: note: expected 'char * restrict' but argument is of type 'uint8_t * {aka unsigned char *}'
+ int _EXFUN(sprintf, (char *__restrict, const char *__restrict, ...)
+     ^
+..\Src\Common.c: In function 'HexEncode':
+..\Src\Common.c:33:13: warning: array subscript is above array bounds [-Warray-bounds]
+         temp[3] = '\0';
+         ~~~~^~~
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L151xB -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L151xB -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\LoraCommHandle.o ..\Src\LoraCommHandle.c 
+..\Src\LoraCommHandle.c: In function 'LoraFrameParse':
+..\Src\LoraCommHandle.c:72:12: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness [-Wpointer-sign]
+  if(strcmp(pMsgFrame, MSG_JOIN_COMPLETE) == 0) {
+            ^~~~~~~~~
+In file included from c:\program files (x86)\atollic\truestudio for stm32 9.0.1\armtools\arm-atollic-eabi\include\stdio.h:29:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_def.h:48,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rcc.h:45,
+                 from ../Inc/stm32l1xx_hal_conf.h:154,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ../Inc/LoraCommHandle.h:4,
+                 from ..\Src\LoraCommHandle.c:1:
+c:\program files (x86)\atollic\truestudio for stm32 9.0.1\armtools\arm-atollic-eabi\include\string.h:32:6: note: expected 'const char *' but argument is of type 'uint8_t * {aka unsigned char *}'
+ int  _EXFUN(strcmp,(const char *, const char *));
+      ^
+..\Src\LoraCommHandle.c:78:20: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness [-Wpointer-sign]
+     else if(strcmp(pMsgFrame, MSG_ACK_RECEIVED) == 0) {
+                    ^~~~~~~~~
+In file included from c:\program files (x86)\atollic\truestudio for stm32 9.0.1\armtools\arm-atollic-eabi\include\stdio.h:29:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_def.h:48,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rcc.h:45,
+                 from ../Inc/stm32l1xx_hal_conf.h:154,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ../Inc/LoraCommHandle.h:4,
+                 from ..\Src\LoraCommHandle.c:1:
+c:\program files (x86)\atollic\truestudio for stm32 9.0.1\armtools\arm-atollic-eabi\include\string.h:32:6: note: expected 'const char *' but argument is of type 'uint8_t * {aka unsigned char *}'
+ int  _EXFUN(strcmp,(const char *, const char *));
+      ^
+..\Src\LoraCommHandle.c:83:21: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness [-Wpointer-sign]
+     else if(strncmp(pMsgFrame, MSG_RECV_BIN_MESSAGE, strlen(MSG_RECV_BIN_MESSAGE)) == 0) {
+                     ^~~~~~~~~
+In file included from c:\program files (x86)\atollic\truestudio for stm32 9.0.1\armtools\arm-atollic-eabi\include\stdio.h:29:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_def.h:48,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rcc.h:45,
+                 from ../Inc/stm32l1xx_hal_conf.h:154,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ../Inc/LoraCommHandle.h:4,
+                 from ..\Src\LoraCommHandle.c:1:
+c:\program files (x86)\atollic\truestudio for stm32 9.0.1\armtools\arm-atollic-eabi\include\string.h:39:6: note: expected 'const char *' but argument is of type 'uint8_t * {aka unsigned char *}'
+ int  _EXFUN(strncmp,(const char *, const char *, size_t));
+      ^
+..\Src\LoraCommHandle.c: In function 'LoraMsgRecv':
+..\Src\LoraCommHandle.c:45:25: warning: 'rxMsgBufLen' may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     err = LoraFrameParse(LORA_RX_BUF, rxMsgBufLen, pCommon);
+                     ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L151xB -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L151xB -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L151xB -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L151xB -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\stm32l1xx_it.o ..\Src\stm32l1xx_it.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L151xB -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L151xB -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\usart.o ..\Src\usart.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L151xB -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\Tps62191Handle.o ..\Src\Tps62191Handle.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L151xB -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L151xB -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\DebugSerial.o ..\Src\DebugSerial.c 
+..\Src\DebugSerial.c:2:1: warning: extra tokens at end of #include directive
+ #include <string.h>
+ ^
+..\Src\DebugSerial.c: In function 'DebugSerial_RxFlush':
+..\Src\DebugSerial.c:85:2: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  memset(DEBUG_RECV_BUFF.BUFF, 0x0, sizeof(DEBUG_RECV_BUFF.BUFF));
+  ^~~~~~
+..\Src\DebugSerial.c:85:2: warning: incompatible implicit declaration of built-in function 'memset'
+..\Src\DebugSerial.c:85:2: note: include '<string.h>' or provide a declaration of 'memset'
+..\Src\DebugSerial.c: In function 'DebugSerial_GetByte':
+..\Src\DebugSerial.c:106:12: warning: 'getCh' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     return getCh;
+            ^~~~~
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L151xB -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\RtcHandle.o ..\Src\RtcHandle.c 
+In file included from ..\Src\RtcHandle.c:1:0:
+../Inc/RtcHandle.h:5:31: fatal error: stm32l1xx_hal_rtc.h: No such file or directory
+ #include "stm32l1xx_hal_rtc.h"
+                               ^
+compilation terminated.
+
+14:16:54 Build Finished (took 5s.797ms)
+

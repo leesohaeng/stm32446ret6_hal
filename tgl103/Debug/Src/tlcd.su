@@ -1,0 +1,8 @@
+tlcd.c:78:6:TLCD_Enable	16	static
+tlcd.c:62:6:TLCD_4BitWrite	16	static
+tlcd.c:98:6:TNLD_Send	8	static
+tlcd.c:88:7:TLCD_Cmd	0	static
+tlcd.c:12:6:TLCD_Init	24	static
+tlcd.c:93:6:TLCD_Write	0	static
+tlcd.c:107:6:TLCD_Putc	8	static
+tlcd.c:113:6:TLCD_Puts	8	static

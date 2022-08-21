@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="자원 &apos;L432KC_RNG_TEST&apos;을(를) &apos;L432KC_RNG_TEST_FLASHWRITE&apos;(으)로 이름 바꾸기" description="&apos;L432KC_RNG_TEST&apos; 자원 이름 바꾸기" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/L432KC_RNG_TEST" name="L432KC_RNG_TEST_FLASHWRITE" stamp="1542001858664" updateReferences="true"/>
+</session>

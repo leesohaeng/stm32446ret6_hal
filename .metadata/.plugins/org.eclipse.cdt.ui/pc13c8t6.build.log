@@ -1,0 +1,38 @@
+10:59:58 **** Incremental Build of configuration Debug for project pc13c8t6 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F103xB -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -Wall -o Src\main.o ..\Src\main.c 
+..\Src\main.c:48:32: error: expected identifier or '(' before '<' token
+ /* USER CODE END PV */         <listOptionValue builtIn="false" value="__weak=&quot;__attribute__((weak))&quot;"/>
+                                ^
+..\Src\main.c:56:38: error: expected ')' before numeric constant
+   HAL_NVIC_SetPriority(SysTick_IRQn, 0, 0);
+                                      ^
+..\Src\main.c:57:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+..\Src\main.c: In function 'MX_TIM1_Init':
+..\Src\main.c:76:5: warning: implicit declaration of function 'Error_Handler' [-Wimplicit-function-declaration]
+     Error_Handler();
+     ^
+..\Src\main.c:126:3: warning: implicit declaration of function 'HAL_TIM_MspPostInit' [-Wimplicit-function-declaration]
+   HAL_TIM_MspPostInit(&htim1);
+   ^
+..\Src\main.c: At top level:
+..\Src\main.c:199:6: warning: conflicting types for 'Error_Handler'
+ void Error_Handler(void)
+      ^
+..\Src\main.c:76:5: note: previous implicit declaration of 'Error_Handler' was here
+     Error_Handler();
+     ^
+..\Src\main.c:60:13: warning: 'MX_TIM1_Init' defined but not used [-Wunused-function]
+ static void MX_TIM1_Init(void)
+             ^
+..\Src\main.c:131:13: warning: 'MX_TIM2_Init' defined but not used [-Wunused-function]
+ static void MX_TIM2_Init(void)
+             ^
+..\Src\main.c:169:13: warning: 'MX_GPIO_Init' defined but not used [-Wunused-function]
+ static void MX_GPIO_Init(void)
+             ^
+
+10:59:59 Build Finished (took 841ms)
+

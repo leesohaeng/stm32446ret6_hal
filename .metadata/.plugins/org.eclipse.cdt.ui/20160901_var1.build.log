@@ -1,0 +1,7 @@
+14:24:27 **** Rebuild of configuration Debug for project 20160901_var1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src\main.o ..\src\main.c 
+gcc -o 20160901_var1.exe src\main.o 
+
+14:24:28 Build Finished (took 1s.239ms)
+

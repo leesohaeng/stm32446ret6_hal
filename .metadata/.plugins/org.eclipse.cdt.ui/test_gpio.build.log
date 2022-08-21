@@ -1,0 +1,20 @@
+10:21:13 **** Incremental Build of configuration Debug for project test_gpio ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F446xx -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -o Src\main.o ..\Src\main.c 
+arm-atollic-eabi-gcc -o test_gpio.elf Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Src\main.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o startup\startup_stm32f446xx.o -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F446RE_FLASH.ld -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs -specs=nosys.specs -static -Wl,-Map=test_gpio.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM 7.1.1\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM 7.1.1\Tools\arm-atollic-reports.jar convert hex sizeinfo list C:\Users\sohaenglee\Desktop\STM32F446RET6_HAL\test_gpio\Debug\test_gpio.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: C:\Users\sohaenglee\Desktop\STM32F446RET6_HAL\test_gpio\Debug\test_gpio.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+   3704	     12	   1568	   5284	   14a4	C:\Users\sohaenglee\Desktop\STM32F446RET6_HAL\test_gpio\Debug\test_gpio.elf
+Print size information done
+Generate listing file
+Output sent to: C:\Users\sohaenglee\Desktop\STM32F446RET6_HAL\test_gpio\Debug\test_gpio.list
+Generate listing file done
+Generate build reports done
+
+10:21:14 Build Finished (took 1s.371ms)
+

@@ -1,0 +1,9 @@
+c:/program files (x86)/atollic/truestudio for arm 5.4.2/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/../../../../arm-atollic-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008018
+C:\Users\sohae\AppData\Local\Temp\cceUQAdm.o: In function `main':
+undefined_symbol.cpp:(.text+0x8): undefined reference to `foo'
+c:/program files (x86)/atollic/truestudio for arm 5.4.2/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/../../../../arm-atollic-eabi/lib\libc.a(lib_a-mallocr.o): In function `_malloc_r':
+mallocr.c:(.text._malloc_r+0x60c): undefined reference to `malloc_getpagesize_P'
+mallocr.c:(.text._malloc_r+0x614): undefined reference to `malloc_getpagesize_P'
+c:/program files (x86)/atollic/truestudio for arm 5.4.2/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/../../../../arm-atollic-eabi/lib\libc.a(lib_a-freer.o): In function `_malloc_trim_r':
+mallocr.c:(.text._malloc_trim_r+0xfc): undefined reference to `malloc_getpagesize_P'
+collect2.exe: error: ld returned 1 exit status

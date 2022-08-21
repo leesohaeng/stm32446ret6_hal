@@ -1,0 +1,9 @@
+GpioHandle.c:47:6:ValveDrivePwrControl	0	static
+GpioHandle.c:30:6:ValveDrivePwrGpio_Init	32	static
+GpioHandle.c:76:6:HallSensorPwrControl	0	static
+GpioHandle.c:59:6:HallSensorPwrGpio_Init	32	static
+GpioHandle.c:116:6:ValveControl	8	static
+GpioHandle.c:88:6:ValveHandleGpio_Init	40	static
+GpioHandle.c:147:6:FlowMeterGpio_Init	16	static
+GpioHandle.c:166:10:FlowMeterRead	8	static
+GpioHandle.c:179:6:EXTI9_5_IRQHandler	0	static

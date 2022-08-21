@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="&apos;Nuclro446RE_GYRO/Src/startup_stm32f446xx.s&apos; 자원을 삭제합니다." deleteContents="false" description="&apos;Nuclro446RE_GYRO/Src/startup_stm32f446xx.s&apos; 자원을 삭제합니다." element1="/Nuclro446RE_GYRO/Src/startup_stm32f446xx.s" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1483113082381"/>
+</session>

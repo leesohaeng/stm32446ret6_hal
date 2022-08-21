@@ -1,0 +1,17 @@
+22:52:45 **** Incremental Build of configuration Debug for project stm32f446re_hello ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F446xx -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -Os -ffunction-sections -fdata-sections -g -Wall -o Src\main.o ..\Src\main.c 
+arm-atollic-eabi-gcc Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\gcc\startup_stm32f446xx.o Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Src\main.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o -o stm32f446re_hello.elf -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F446RE_FLASH.ld -Wl,--start-group -lc -lm -Wl,--end-group -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=stm32f446re_hello.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM 6.0.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM 6.0.0\Tools\arm-atollic-reports.jar sizeinfo list stm32f446re_hello.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+   3660	     12	   1568	   5240	   1478	stm32f446re_hello.elf
+Print size information done
+Generate listing file
+Output sent to: stm32f446re_hello.elf.list
+Generate listing file done
+Generate build reports done
+
+22:52:47 Build Finished (took 2s.203ms)
+

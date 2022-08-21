@@ -1,0 +1,12 @@
+ToolChainName: GCC_40803
+         Kind: 0
+      Version: 40803
+
+ CompilerPath: C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM 5.4.2\ARMTools\bin\arm-atollic-eabi-gcc.exe
+     Includes: c:\program files (x86)\atollic\truestudio for arm 5.4.2\armtools\bin\../lib/gcc/arm-atollic-eabi/4.8.3/include;c:\program files (x86)\atollic\truestudio for arm 5.4.2\armtools\bin\../lib/gcc/arm-atollic-eabi/4.8.3/include-fixed;c:\program files (x86)\atollic\truestudio for arm 5.4.2\armtools\bin\../lib/gcc/arm-atollic-eabi/4.8.3/../../../../arm-atollic-eabi/include
+     Language: 0
+
+   LinkerPath: C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM 5.4.2\ARMTools\bin\arm-atollic-eabi-gcc.exe
+  Library Dir: 
+
+  Archive Dir: C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM 5.4.2\ARMTools\bin\arm-atollic-eabi-ar.exe

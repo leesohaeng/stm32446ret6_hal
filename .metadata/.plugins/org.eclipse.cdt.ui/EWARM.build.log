@@ -1,0 +1,76 @@
+00:30:07 **** Rebuild of configuration test for project EWARM ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c ..\..\Src\stm32l1xx_hal_msp.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32L151xB -D__ARM4TM__=4 -D__ARM7EM__=13 -D__ARM8M_MAINLINE__=17 -D__ARM7__=7 -D__ARM8M_BASELINE__=16 -D__ARM5__=5 -D__ARM7R__=7 -D__ARM7M__=7 -D__ARM6SM__=12 -D__CORE__=__ARM7M__ -I../../Inc -I../../Drivers/STM32L1xx_HAL_Driver/Inc -I../../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Application\User\stm32l1xx_hal_msp.o 
+arm-atollic-eabi-gcc -c ..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32L151xB -D__ARM4TM__=4 -D__ARM7EM__=13 -D__ARM8M_MAINLINE__=17 -D__ARM7__=7 -D__ARM8M_BASELINE__=16 -D__ARM5__=5 -D__ARM7R__=7 -D__ARM7M__=7 -D__ARM6SM__=12 -D__CORE__=__ARM7M__ -I../../Inc -I../../Drivers/STM32L1xx_HAL_Driver/Inc -I../../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\stm32l1xx_hal_dma.o 
+arm-atollic-eabi-gcc -c ..\..\Src\main.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32L151xB -D__ARM4TM__=4 -D__ARM7EM__=13 -D__ARM8M_MAINLINE__=17 -D__ARM7__=7 -D__ARM8M_BASELINE__=16 -D__ARM5__=5 -D__ARM7R__=7 -D__ARM7M__=7 -D__ARM6SM__=12 -D__CORE__=__ARM7M__ -I../../Inc -I../../Drivers/STM32L1xx_HAL_Driver/Inc -I../../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Application\User\main.o 
+In file included from ..\..\Src\main.c:45:0:
+../../Inc/PeripheralInit.h:29:2: error: expected identifier or '(' before 'uint32_t'
+ /* Exported functions ------------------------------------------------------- */
+  ^~~~~~~~
+..\..\Src\main.c: In function 'main':
+..\..\Src\main.c:73:2: warning: implicit declaration of function 'TPS61291BypassDisable' [-Wimplicit-function-declaration]
+  TPS61291BypassDisable();
+  ^~~~~~~~~~~~~~~~~~~~~
+..\..\Src\main.c:83:2: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  memset(&COMMON, 0x0, sizeof(COMMON));
+  ^~~~~~
+..\..\Src\main.c:83:2: warning: incompatible implicit declaration of built-in function 'memset'
+..\..\Src\main.c:83:2: note: include '<string.h>' or provide a declaration of 'memset'
+In file included from ..\..\Src\main.c:42:0:
+..\..\Src\main.c:143:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+   TRACE("TRACE\t[HALL SENEOR SLEEP COUNT (%d)]", COMMON.HALL_SENEOR_SLEEP_CNT);
+         ^
+../../Inc/Common.h:43:32: note: in definition of macro 'TRACE'
+ #define TRACE(fmt, ...) printf(fmt"\n", ##__VA_ARGS__)
+                                ^~~
+..\..\Src\main.c:149:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+     TRACE("TRACE\t[HALL SENEOR WAKE UP (%d)]", COMMON.HALL_SENEOR_SLEEP_CNT);
+           ^
+../../Inc/Common.h:43:32: note: in definition of macro 'TRACE'
+ #define TRACE(fmt, ...) printf(fmt"\n", ##__VA_ARGS__)
+                                ^~~
+..\..\Src\main.c:155:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+     TRACE("TRACE\t[HALL SENEOR SLEEP (%d)]", COMMON.HALL_SENEOR_SLEEP_CNT);
+           ^
+../../Inc/Common.h:43:32: note: in definition of macro 'TRACE'
+ #define TRACE(fmt, ...) printf(fmt"\n", ##__VA_ARGS__)
+                                ^~~
+..\..\Src\main.c:169:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+   TRACE("TRACE\t[CURRENT FLOW : %d, TOTAL FLOW : %d]", temp32U, COMMON.CURRENT_FLOW, COMMON.TOTAL_FLOW);
+         ^
+../../Inc/Common.h:43:32: note: in definition of macro 'TRACE'
+ #define TRACE(fmt, ...) printf(fmt"\n", ##__VA_ARGS__)
+                                ^~~
+..\..\Src\main.c:169:9: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+   TRACE("TRACE\t[CURRENT FLOW : %d, TOTAL FLOW : %d]", temp32U, COMMON.CURRENT_FLOW, COMMON.TOTAL_FLOW);
+         ^
+../../Inc/Common.h:43:32: note: in definition of macro 'TRACE'
+ #define TRACE(fmt, ...) printf(fmt"\n", ##__VA_ARGS__)
+                                ^~~
+..\..\Src\main.c:169:9: warning: too many arguments for format [-Wformat-extra-args]
+   TRACE("TRACE\t[CURRENT FLOW : %d, TOTAL FLOW : %d]", temp32U, COMMON.CURRENT_FLOW, COMMON.TOTAL_FLOW);
+         ^
+../../Inc/Common.h:43:32: note: in definition of macro 'TRACE'
+ #define TRACE(fmt, ...) printf(fmt"\n", ##__VA_ARGS__)
+                                ^~~
+..\..\Src\main.c:174:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+   TRACE("TRACE\t[RANDOM DELAY : %d ms]", temp32U);
+         ^
+../../Inc/Common.h:43:32: note: in definition of macro 'TRACE'
+ #define TRACE(fmt, ...) printf(fmt"\n", ##__VA_ARGS__)
+                                ^~~
+..\..\Src\main.c:190:10: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    TRACE("TRACE\t[WAKE UP (COUNT : %d)]", WakeupCountGet());
+          ^
+../../Inc/Common.h:43:32: note: in definition of macro 'TRACE'
+ #define TRACE(fmt, ...) printf(fmt"\n", ##__VA_ARGS__)
+                                ^~~
+..\..\Src\main.c:208:10: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    TRACE("TRACE\t[WAKE UP (COUNT : %d)]", WakeupCountGet());
+          ^
+../../Inc/Common.h:43:32: note: in definition of macro 'TRACE'
+ #define TRACE(fmt, ...) printf(fmt"\n", ##__VA_ARGS__)
+                                ^~~
+
+00:30:09 Build Finished (took 1s.813ms)
+
